@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        p {
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+
+        .container {
+            display: grid;
+            grid-template-rows: 40px 120px;
+            border-style: solid;
+            width:450px;
+            border-color: rgba(9, 14, 19, 0.5);
+        }
+        .header {
+            
+            width: 400px;
+        }
+
+        .content {
+            display: grid;
+            grid-template-columns: 110px 1fr;
+           
+            width: 400px;
+        }
+
+        #title {
+            padding-left: 20px;
+            padding-top: 8px;
+            opacity: 0.7;
+            margin-left: 20px;
+        }
+ 
+        .pic{
+            border-radius: 50%;
+            margin:20px;
+            
+        }
+        .desc-header{
+            font-weight: bold;
+            display: inline-block;
+            margin-left: 10px;
+            margin-top: 18px;
+        }
+        .desc-content{
+            font-weight: bold;
+            margin-left: 10px;
+            margin-top: 5px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <p id="title">ALL INBOXES</p>
+        </div>
+        <div class="content">
+
+            <div class="profile">
+                <img class="pic"src="channel-pictures/channel-1.jpeg" alt="">
+            </div>
+
+            <div class="description">
+                <p class="desc-header">Chewy Promotions </p>
+                    <span style="opacity:0.7;margin-left: 90px;">4:58pm</span>
+                <p class="desc-content">Biggest Sales of the year!</p>
+                <p style="opacity:0.6; margin-left: 10px;">Hey there! We're writing to tell you about our...</p>
+            </div>
+
+        </div>
+    </div>
+    
+</body>
+
+</html>
